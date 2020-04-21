@@ -1,0 +1,25 @@
+<!-- 11:34 -->
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Sample styled page</title>
+  <style>
+   body { background: navy; color: yellow; }
+  </style>
+<script>
+ var img = new Image();
+ img.src = 'games.png';
+ img.alt = 'Games';
+ img.onload = gamesLogoHasLoaded;
+ // img.addEventListener('load', gamesLogoHasLoaded, false); // would work also
+</script>
+ </head>
+ <body>
+  <h1>Sample styled page</h1>
+  <p>This page is just a demo.</p>
+
+ <img id="games" src="games.png" alt="Games">
+
+ </body>
+</html>
